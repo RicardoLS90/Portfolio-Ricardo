@@ -1,0 +1,183 @@
+#root {
+  max-width: 1280px;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+}
+
+/*----------------------------NAVBAR------------------------*/
+
+
+.navbarcontainer {
+  width: 90%;
+  height: 40px;
+  background-color: #242424;
+}
+
+.navbar>ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  justify-content: space-around;
+ 
+ 
+}
+
+
+.navbarinfo {
+  list-style: none;
+
+}
+
+.navbarinfo:hover {
+  cursor: pointer;
+}
+
+
+
+/*--------------------------HOMBE---------------------*/
+
+
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home>img {
+  width: 30%;
+  border-radius: 330px;
+  border: 1px solid rgb(231, 231, 3);
+  
+}
+
+.linkscontainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+
+/*-----------------------------ABOUT-----------------------*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+.about>p {
+  text-align: center;
+}
+
+
+
+/*--------------------------HABILITIES-------------------*/
+
+
+.habilities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+   
+}
+
+.habilities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.habilitie {
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.habilitie>img {
+  width: 30px;
+}
+
+
+
+/*------------------PORTFOLIO-----------------*/
+
+
+.porfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.portfolio-img {
+  width: 50%;
+  border: 1px solid rgb(231, 231, 3);
+  border-radius: 30px;
+}
+
+.img-container > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/*---------------------------CONTACT-------------------*/
+
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.contact-info {
+  width: 90%;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.info>img {
+  width: 30%;
+}
+
