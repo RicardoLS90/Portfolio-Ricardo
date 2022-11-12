@@ -5,7 +5,7 @@ import email from '../assets/img/mail 1.svg'
 
 const Contact = () => {
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='contact'>
       <h1>Contacto</h1>
       <div className='contact-info'>
         <div className='info'>

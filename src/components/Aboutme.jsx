@@ -2,7 +2,7 @@ import React from 'react';
 
 const Aboutme = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <h2>Acerca de mi</h2>
       <p>Soy una persona sociable, amigable y con muy buen humor.
         Disfruto mucho de pasar con mi familia en mi tiempo libre, tambien hago deportes 

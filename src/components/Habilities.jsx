@@ -5,7 +5,7 @@ import web from '../assets/img/web.svg'
 
 const Habilities = () => {
   return (
-    <div className='habilities-container'>
+    <div className='habilities-container' id='habilities'>
       <h2>Mis Habilidades</h2>
       <div className='habilities'>
         <div className='habilitie mobile'>

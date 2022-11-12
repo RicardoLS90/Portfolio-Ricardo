@@ -5,7 +5,7 @@ import rickandmorty from '../assets/img/rickandmorty.png'
 const Portfolio = () => {
   return (
     <div>
-      <div className='porfolio-container'>
+      <div className='porfolio-container' id='portfolio'>
         <h2>Portafolio</h2>
         <div className='img-container'>
           <a href="https://ricardoleonentregable2.netlify.app/"><img className='portfolio-img' src={weather} alt="" /></a>
