@@ -34,8 +34,8 @@ const Home = () => {
         <h1 className='home-text info'>Desarrollador Web / Web Developer</h1>
       </div>
       <div className='linkscontainer'>
-        <a href="https://www.linkedin.com/in/ricardoleons"><i className='bx bxl-linkedin link'></i></a>
-        <a href="https://walink.co/6a1656" className='whatcontainer'>
+        <a href="https://www.linkedin.com/in/ricardoleons" target='_blank'><i className='bx bxl-linkedin link'></i></a>
+        <a href="https://walink.co/6a1656" target='_blank' className='whatcontainer'>
             <i className='bx bxl-whatsapp bxc'></i>
           </a>
       </div>

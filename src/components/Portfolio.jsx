@@ -22,8 +22,8 @@ const Portfolio = () => {
         <div className='portfolio-info'>
           <h2>Portafolio</h2>
           <div className='img-container'>
-            <a href="https://ricardoleonentregable2.netlify.app/"><img className='portfolio-img' src={weather} alt="" /></a>
-            <a href="https://ricardo-leon-rickyandmorty.netlify.app/"><img className='portfolio-img' src={rickandmorty} alt="" /></a>
+            <a href="https://ricardoleonentregable2.netlify.app/" target='_blank'><img className='portfolio-img' src={weather} alt="" /></a>
+            <a href="https://ricardo-leon-rickyandmorty.netlify.app/" target='_blank'><img className='portfolio-img' src={rickandmorty} alt="" /></a>
           </div>
           < Habilities />
         </div>
