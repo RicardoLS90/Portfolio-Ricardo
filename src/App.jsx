@@ -1,5 +1,5 @@
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
@@ -9,17 +9,20 @@ import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 
 function App() {
-  
+
 
   return (
-    <div className="App">
-      < Navbar />
-      <Home />
-      <Aboutme />
-      <Habilities />
-      <Portfolio />
-      <Contact/>
-    </div>
+    <HashRouter>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<Aboutme />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/contact' element={<Contact />} /> 
+        </Routes>
+        < Contact />
+      </div>
+    </HashRouter>
   )
 }
 

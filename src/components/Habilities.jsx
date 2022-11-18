@@ -9,15 +9,15 @@ const Habilities = () => {
       <h2>Mis Habilidades</h2>
       <div className='habilities'>
         <div className='habilitie mobile'>
-          <img src={mobile} alt="mobile" />
+          <i className='bx bx-mobile desing'></i>
           <h3>Mobile App Desing</h3>
         </div>
-      <div className='habilitie sistems'>
-          <img src={sistems} alt="sistems" />
+        <div className='habilitie sistems'>
+          <i className='bx bx-align-middle desing'></i>
           <h3>Creacion de sistema de diseños</h3>
-      </div>
-      <div className='habilitie web'>
-          <img src={web} alt="web" />
+        </div>
+        <div className='habilitie web'>
+          <i className='bx bx-devices desing'></i>
           <h3>Desarrollo Web</h3>
         </div>
       </div>
