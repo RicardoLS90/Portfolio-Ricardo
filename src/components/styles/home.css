@@ -1,0 +1,155 @@
+/*--------------------------HOME---------------------*/
+
+
+
+
+.homecontainer{
+  /* background-color: var(--color1); */
+  background-image: url('../../assets/tec2.gif');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100vh;  
+  gap: 30px;
+ 
+  
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100vh;
+}
+
+
+
+.home {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px ;
+  background-color: var(--color3);
+  border-radius: 15%;
+  color: aliceblue;
+  
+}
+
+
+
+.home-img {
+  height: 40vh;
+  width: 30vh;
+  border-radius: 100%;
+  border: 1px solid var(--color1);
+  animation-name: animation-Paragraph;
+  animation-duration: 3s;
+  
+}
+
+
+
+.link {
+  color: var(--color4);
+  font-size: 60px;
+  transition: 2s;
+ 
+}
+
+.link:hover {
+  scale: 1.5;
+  cursor: pointer;
+  color: var(--color2);
+}
+
+.buttonlink-container {
+  width: 30%;
+}
+
+.contactme>h2 {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.linkscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  
+}
+
+.home-tittle::before {
+  content: "";
+  display: block;
+  background: var(--color2);
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  clip-path: var(--clippy);
+  transition: clip-path 2s;
+  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+  animation-name:animation-Paragraph;
+  animation-duration: 3s;
+
+}
+
+
+.home-text {
+  color:aliceblue;
+}
+
+.home-text::before {
+  content: "";
+  display: block;
+  background: #193dd9;
+  width: 110%;
+  height: 120%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  animation-name: clippath;
+  animation-duration: 3s;
+  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+  
+}
+
+.info {
+  position: relative;
+  z-index: 1;
+}
+
+  .info:hover {
+    cursor:default;
+  }
+
+
+
+/* .home-tittle:hover::before {
+  cursor: pointer;
+  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+  color: var(--color4);
+} */
+
+/* .info:hover + .home-text::before {
+  cursor: pointer;
+  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+  
+} */
+
+/* .home-text:hover::before {
+  cursor: pointer;
+  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+  color: var(--color4);
+} */
+

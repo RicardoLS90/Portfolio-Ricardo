@@ -1,0 +1,65 @@
+/*------------------PORTFOLIO-----------------*/
+
+
+.button-portfolio {
+  width: 100%;
+}
+
+.portfolio-container {
+  display: flex;
+  background-color: var(--color1);
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  animation-name: animation-Paragraph;
+  animation-duration: 2s;
+  background-image: url('../../assets/tec6.png');
+  background-size: cover;
+}
+
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.portfolio-info>h2 {
+  color: var(--color6);
+  font-size: 36px;
+}
+
+.img-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+}
+
+.aportfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.portfolio-img {
+  width: 50%;
+  border: 1px solid rgb(231, 231, 3);
+  border-radius: 30px;
+}
+
+.portfolio-img:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.img-container > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

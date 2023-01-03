@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import photo1 from '../assets/photo4.jpg'
 import photo2 from '../assets/photo1.jpg'
 import photo3 from '../assets/photo3.jpg'
+import './styles/about.css'
+import Button from 'react-bootstrap/Button';
 
 const Aboutme = () => {
 
@@ -14,8 +16,8 @@ const Aboutme = () => {
 
   return (
     <div className='about-container' id='about'>
-      <div className='button-container'>
-        <button className='back-button button-link' onClick={backButton}><i className='bx bx-arrow-back'></i></button>
+      <div className='button-about'>
+      <Button onClick={backButton} variant="primary">Back to home</Button>{' '}
       </div>
       <div className='about-text'>
         <h2 className='about-tittle'>Acerca de mi</h2>

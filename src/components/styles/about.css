@@ -1,0 +1,60 @@
+/*-----------------------------ABOUT-----------------------*/
+
+
+.about-container {
+  /* background-color: var(--color1); */
+  height: 100vh;
+  background-image: url('../../assets/2907010.png');
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 25px 100px 0 100px;
+  
+}
+
+.about-tittle {
+  color: var(--color2);
+  font-size: 30px;
+  animation-name: animation-Paragraph;
+  animation-duration: 3s;
+  
+}
+
+.about-paragraph {
+  color: aliceblue;
+  text-align: center;
+  font-size: 15px;
+  animation-name: animation-Paragraph;
+  
+  animation-duration: 5s;
+  
+}
+
+.about-image {
+  
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  animation-name: animation-Paragraph;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-delay: 2s;
+
+  
+}
+
+.aboutphoto {
+  width: 20%;
+  height: 30vh;
+  border-radius: 20px;
+  
+}
+
