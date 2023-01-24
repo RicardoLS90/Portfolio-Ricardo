@@ -1,0 +1,170 @@
+
+/*--------------------------HOME---------------------*/
+
+/*----------------------Navbar------------------------*/
+
+.homecontainer{
+  /* background-color: var(--color1); */
+  background-image: url('../../assets/space4.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;  
+  gap: 30px;
+  animation: opacity 1s;
+}
+
+.nav-container {
+  display: flex;
+  flex: row;
+}
+
+.nav-name{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.nav-name>h2 {
+  color: aliceblue;
+  font-size: 4vh;
+}
+
+.nav-name>h2>b {
+  color: tomato;
+}
+
+.nav-links {
+  margin-left: 100vh;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-links>a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.nav-links>a:hover {
+  color: grey;
+}
+
+/*------------------------Body-------------------*/
+
+.information {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text-animation {
+  display: table;
+  width: 100%;
+}
+
+.home-tittle{
+  color: tomato;
+  font-size: 5vh;
+  animation: opacity 2s;
+}
+
+@keyframes opacity {
+
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  
+}
+
+.home-text{
+  margin-top: 60px;
+  color: aliceblue;
+  font-size: 8vh;
+  position: relative;
+  animation: maquina 2s infinite alternate;
+  animation-timeline: 3s;
+}
+
+/* .home-text:after {
+  content: "";
+  border: 2px solid tomato;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: maquina 3s infinite alternate;
+} */
+
+
+
+@keyframes maquina {
+  from {
+    color: tomato;
+    scale: 1.1;
+  }
+  to {
+    color: aliceblue;
+    scale: 1;
+  }
+}
+
+
+
+/*--------------------------Home-contact--------------------------*/
+
+.linkscontainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+  animation: position  3s;
+}
+
+@keyframes position {
+  from{
+    bottom: 300px;
+  }
+  to{
+    bottom: 20px;
+  }
+}
+
+.contactme>h2{
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.links-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  color: tomato;
+}
+
+.links-buttons>a {
+  color: tomato;
+}
+
+
+.linkdin:hover{
+  scale: 1.5;
+  color: #0077B5;
+}
+
+.whatsapp:hover {
+  scale: 1.5;
+  color: #25D366;
+}

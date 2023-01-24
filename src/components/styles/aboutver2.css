@@ -1,0 +1,90 @@
+/*-----------------------------ABOUT-----------------------*/
+
+
+.about-container {
+  /* background-color: var(--color1); */
+  height: 100vh;
+  background-color: darkslategray;
+}
+
+.nav-home {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+
+.nav-links {
+  width: 100%;
+  margin-left: 600px;
+}
+
+
+
+.nav-home>h2>b {
+  color: tomato;
+}
+
+.nav-home>h2:hover {
+  color: tomato
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  background-color: peachpuff;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 25px 100px 0 100px;
+  width: 50%;
+  
+}
+
+.about-tittle {
+  color: tomato;
+  font-size: 30px;
+  animation-name: animation-Paragraph;
+  animation-duration: 3s;
+  
+}
+
+.about-paragraph {
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  animation-name: animation-Paragraph;
+  text-align: left;
+  animation-duration: 5s;
+  color: darkslategrey;
+
+  
+}
+
+.about-image {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  animation-name: animation-Paragraph;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-delay: 2s;
+
+  
+}
+
+.aboutphoto {
+  width: 40%;
+  border-radius: 20px;
+  
+}
+

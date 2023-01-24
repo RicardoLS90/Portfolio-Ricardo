@@ -1,0 +1,83 @@
+.contact-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: peachpuff;
+  align-items: center;
+  
+}
+
+.contact-title {
+  margin-top: 60px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+ 
+  
+}
+
+.infor {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: peachpuff;
+  padding: 20px;
+  border-radius: 30px;
+  border: solid 2px tomato;
+  box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contact-info-container {
+  background-color: darkslategray;
+  padding: 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  border: solid 2px tomato;
+  box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h3 {
+  color: darkslategray;
+}
+
+.social-invitation {
+  color: aliceblue;
+}
+
+h1 {
+  color: darkslategray;
+}
+
+.bx-phone{
+  color: darkslategray;
+}
+
+.bxl-gmail {
+  color: darkslategrey;
+}
+
+.bxl-gmail:hover {
+  color: #BB001B;
+}
+
+.bxl-github:hover {
+  color: black;
+}
+
+.bx {
+  font-size: 40px;
+}
+
+.nav-container-contact {
+  background-color: darkslategrey;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

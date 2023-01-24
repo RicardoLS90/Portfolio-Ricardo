@@ -1,5 +1,41 @@
 /*------------------PORTFOLIO-----------------*/
 
+.nav-container {
+  display: flex;
+  flex: row;
+  width:100%;
+}
+
+.nav-name{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.nav-home>h2 {
+  color: aliceblue;
+  font-size: 4vh;
+}
+
+.nav-name>h2>b {
+  color: tomato;
+}
+
+.nav-links {
+  margin-left: 90vh;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-links>a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.nav-links>a:hover {
+  color: grey;
+}
 
 .button-portfolio {
   width: 100%;
@@ -7,37 +43,45 @@
 
 .portfolio-container {
   display: flex;
-  background-color: var(--color1);
   width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
   animation-name: animation-Paragraph;
   animation-duration: 2s;
-  background-image: url('../../assets/tec6.png');
-  background-size: cover;
+  background-color: darkslategray;
 }
 
 .portfolio-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 80px;
+  
 }
 
-.portfolio-info>h2 {
-  color: var(--color6);
-  font-size: 36px;
+.portfoliotittle{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.portfoliotittle>h2 {
+  color: aliceblue;
+  font-size: 7vh;
 }
 
 .img-container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
   align-content: center;
   gap: 50px;
+  background-color: tomato;
+  width: 100%;
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .aportfolio {
@@ -63,3 +107,11 @@
   justify-content: center;
 }
 
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: peachpuff;
+}
