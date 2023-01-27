@@ -22,12 +22,23 @@ const Habilities = () => {
             </h2>
           </Link>
         </div>
+        <label htmlFor="menu" className="nav-label">
+          <i class="bx bx-menu"></i>
+        </label>
+        <input type="checkbox" id="menu" className="nav-input" />
         <div className="nav-links">
-          <Link to={"/about"}>About me</Link>
-          <Link to={"/habilities"}>Skills</Link>
-          <Link to={"/portfolio"}>Proyects</Link>
-          <Link to={"/contact"}>Contact</Link>
-          <a href="https://docs.google.com/document/d/1h4R7KKdrfzuDjFSvxYjhbnc04yUgFVlk/edit?usp=share_link&ouid=104687727224783542665&rtpof=true&sd=true" target="_blank">Download CV</a>
+          <div className="nav-menu">
+            <Link to={"/about"}>About me</Link>
+            <Link to={"/habilities"}>Skills</Link>
+            <Link to={"/portfolio"}>Proyects</Link>
+            <Link to={"/contact"}>Contact</Link>
+            <a
+              href="https://docs.google.com/document/d/1h4R7KKdrfzuDjFSvxYjhbnc04yUgFVlk/edit?usp=share_link&ouid=104687727224783542665&rtpof=true&sd=true"
+              target="_blank"
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </nav>
       {/* <div className='button-portfolio'>

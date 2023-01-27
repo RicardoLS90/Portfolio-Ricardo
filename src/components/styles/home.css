@@ -2,6 +2,11 @@
 
 
 
+/*-------------------pc--------------------*/
+
+@media screen and (max-width: 375px ) {
+  
+
 
 .homecontainer{
   /* background-color: var(--color1); */
@@ -153,3 +158,4 @@
   color: var(--color4);
 } */
 
+}

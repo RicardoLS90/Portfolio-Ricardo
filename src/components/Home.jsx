@@ -26,12 +26,23 @@ const Home = () => {
             Ricardo<b>Leon</b>Developer
           </h2>
         </div>
+        <label htmlFor="menu" className="nav-label">
+          <i class="bx bx-menu"></i>
+        </label>
+        <input type="checkbox" id="menu" className="nav-input" />
         <div className="nav-links">
-          <Link to={'/about'} >About me</Link>
-          <Link to={'/habilities'}>Skills</Link>
-          <Link to={'/portfolio'}>Proyects</Link>
-          <Link to={'/contact'}>Contact</Link>
-          <a href="https://docs.google.com/document/d/1h4R7KKdrfzuDjFSvxYjhbnc04yUgFVlk/edit?usp=share_link&ouid=104687727224783542665&rtpof=true&sd=true" target="_blank">Download CV</a>
+          <div className="nav-menu">
+            <Link to={"/about"}>About me</Link>
+            <Link to={"/habilities"}>Skills</Link>
+            <Link to={"/portfolio"}>Proyects</Link>
+            <Link to={"/contact"}>Contact</Link>
+            <a
+              href="https://docs.google.com/document/d/1h4R7KKdrfzuDjFSvxYjhbnc04yUgFVlk/edit?usp=share_link&ouid=104687727224783542665&rtpof=true&sd=true"
+              target="_blank"
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -42,7 +53,7 @@ const Home = () => {
             <b>Full Stack Developer</b>
           </h2>
           <div className="text-animation">
-          <h1 className="home-text info">Ricardo Leon Developer</h1>
+            <h1 className="home-text info">Ricardo Leon Developer</h1>
           </div>
         </div>
       </div>
@@ -63,10 +74,18 @@ const Home = () => {
             <h2>CONTACT ME</h2>
           </div>
           <div className="links-buttons">
-            <a href="https://www.linkedin.com/in/ricardoleons" className="linkdin" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/ricardoleons"
+              className="linkdin"
+              target="_blank"
+            >
               <i className="bx bxl-linkedin link"></i>
             </a>
-            <a href="https://walink.co/6a1656" className="whatsapp" target="_blank">
+            <a
+              href="https://walink.co/6a1656"
+              className="whatsapp"
+              target="_blank"
+            >
               <i className="bx bxl-whatsapp bxc"></i>
             </a>
           </div>

@@ -19,7 +19,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div>
+    
       <div className="portfolio-container" id="portfolio">
         {/* <div className='button-portfolio'>
           <Button onClick={backButton} variant="primary">Back to home</Button>{' '}
@@ -33,12 +33,23 @@ const Portfolio = () => {
                 </h2>
               </Link>
             </div>
+            <label htmlFor="menu" className="nav-label">
+              <i class="bx bx-menu"></i>
+            </label>
+            <input type="checkbox" id="menu" className="nav-input" />
             <div className="nav-links">
-              <Link to={"/about"}>About me</Link>
-              <Link to={"/habilities"}>Skills</Link>
-              <Link to={"/portfolio"}>Proyects</Link>
-              <Link to={"/contact"}>Contact</Link>
-              <a href="https://docs.google.com/document/d/1h4R7KKdrfzuDjFSvxYjhbnc04yUgFVlk/edit?usp=share_link&ouid=104687727224783542665&rtpof=true&sd=true" target="_blank">Download CV</a>
+              <div className="nav-menu">
+                <Link to={"/about"}>About me</Link>
+                <Link to={"/habilities"}>Skills</Link>
+                <Link to={"/portfolio"}>Proyects</Link>
+                <Link to={"/contact"}>Contact</Link>
+                <a
+                  href="https://docs.google.com/document/d/1h4R7KKdrfzuDjFSvxYjhbnc04yUgFVlk/edit?usp=share_link&ouid=104687727224783542665&rtpof=true&sd=true"
+                  target="_blank"
+                >
+                  Download CV
+                </a>
+              </div>
             </div>
           </nav>
           <div className="portfoliotittle">
@@ -52,7 +63,14 @@ const Portfolio = () => {
                 <Card.Text>
                   A complete tecnology e-commerce (React-Css-Bootstrap)
                 </Card.Text>
-                <Button variant="danger"><a href="https://stellar-naiad-961462.netlify.app/" target='_blank'>Check it!</a></Button>
+                <Button variant="danger">
+                  <a
+                    href="https://stellar-naiad-961462.netlify.app/"
+                    target="_blank"
+                  >
+                    Check it!
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }}>
@@ -62,7 +80,14 @@ const Portfolio = () => {
                 <Card.Text>
                   Let's test your memory! (Html-Javascript-React-Css)
                 </Card.Text>
-                <Button variant="danger"><a href="https://resilient-treacle-03d5ac.netlify.app/" target='_blank'>Check it!</a></Button>
+                <Button variant="danger">
+                  <a
+                    href="https://resilient-treacle-03d5ac.netlify.app/"
+                    target="_blank"
+                  >
+                    Check it!
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }}>
@@ -73,7 +98,14 @@ const Portfolio = () => {
                   shows the weather of the place where you are
                   (Html-Javascript-React-Css-Api)
                 </Card.Text>
-                <Button variant="danger"><a href="https://ricardoleonentregable2.netlify.app/" target='_blank'>Check it!</a></Button>
+                <Button variant="danger">
+                  <a
+                    href="https://ricardoleonentregable2.netlify.app/"
+                    target="_blank"
+                  >
+                    Check it!
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }}>
@@ -84,7 +116,14 @@ const Portfolio = () => {
                   A complete Pokedex! let's find your favourite Pokemon
                   (React-Css)
                 </Card.Text>
-                <Button variant="danger"><a href="https://gleaming-granita-e65952.netlify.app/" target='_blank'>Check it!</a></Button>
+                <Button variant="danger">
+                  <a
+                    href="https://gleaming-granita-e65952.netlify.app/"
+                    target="_blank"
+                  >
+                    Check it!
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }}>
@@ -94,7 +133,14 @@ const Portfolio = () => {
                 <Card.Text>
                   Begin your day with good energies! (React-Css)
                 </Card.Text>
-                <Button variant="danger"><a href="https://ricardoleon-entregable1.netlify.app/" target='_blank'>Check it!</a></Button>
+                <Button variant="danger">
+                  <a
+                    href="https://ricardoleon-entregable1.netlify.app/"
+                    target="_blank"
+                  >
+                    Check it!
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }}>
@@ -104,7 +150,14 @@ const Portfolio = () => {
                 <Card.Text>
                   You can find all characters per planet (React-Css)
                 </Card.Text>
-                <Button variant="danger"><a href="https://ricardo-leon-rickyandmorty.netlify.app/" target='_blank'>Check it!</a></Button>
+                <Button variant="danger">
+                  <a
+                    href="https://ricardo-leon-rickyandmorty.netlify.app/"
+                    target="_blank"
+                  >
+                    Check it!
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
             <Card style={{ width: "18rem" }}>
@@ -112,7 +165,14 @@ const Portfolio = () => {
               <Card.Body>
                 <Card.Title>Digital CLock</Card.Title>
                 <Card.Text>What time is it? (React-Javascript-Css)</Card.Text>
-                <Button variant="danger"><a href="https://radiant-nougat-6402b1.netlify.app/" target='_blank'>Check it!</a></Button>
+                <Button variant="danger">
+                  <a
+                    href="https://radiant-nougat-6402b1.netlify.app/"
+                    target="_blank"
+                  >
+                    Check it!
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
             {/* <a className='aportfolio' href="https://stellar-naiad-961462.netlify.app/" target='_blank'><img className='portfolio-img' src={ecommerce} alt="" />E-commerce</a>
@@ -123,7 +183,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

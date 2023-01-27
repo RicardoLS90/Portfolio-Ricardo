@@ -88,3 +88,153 @@
   
 }
 
+
+/*---------------------phone---------------*/
+
+
+@media  screen and (max-width: 700px) {
+
+
+/*--------------------navbar------------------*/
+
+.nav-container {
+  background-color: darkslategray;
+  position: fixed;
+}
+
+.nav-name>h2 {
+  color: aliceblue;
+  font-size: 4vh;
+}
+
+.nav-name>h2>b {
+  color: tomato;
+}
+
+.nav-label {
+  color: aliceblue;
+}
+
+.bx-menu {
+  color: aliceblue;
+}
+
+.bx-menu:hover {
+  cursor: pointer;
+  color: tomato;
+}
+
+.nav-input{
+  display: none;
+}
+
+.nav-label {
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  clip-path: circle(0% at center);
+  transition: clip-path 1s ease-in-out;
+  background-color: tomato;
+  z-index: 1;
+}
+
+.nav-menu {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+  background-color: darkslategray;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  
+}
+
+.nav-input:checked + .nav-links {
+  clip-path: circle(100% at center);
+
+} */
+
+
+/*------------------------body-------------------*/
+  .about-container {
+    /* background-color: var(--color1); */
+    height: 100vh;
+    background-color: darkslategray;
+  }
+  
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: peachpuff;
+    
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
+  
+  .about-tittle {
+    color: tomato;
+    font-size: 30px;
+    animation-name: animation-Paragraph;
+    animation-duration: 3s;
+    text-align: center;
+    
+  }
+  
+  .about-paragraph {
+    color: aliceblue;
+    font-size: 25px;
+    animation-name: animation-Paragraph;
+    text-align:left;
+    animation-duration: 5s;
+    color: darkslategrey;
+    
+  
+    
+  }
+  
+  .about-image {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    animation-name: animation-Paragraph;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+  
+    
+  }
+  
+  .aboutphoto {
+    width: 50%;
+    border-radius: 20px;
+    
+  }
+  
+}
