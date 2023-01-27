@@ -16,13 +16,10 @@
 }
 
 .nav-menu {
-  
   display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 20px;
-  
-  
 }
 
 .habilities-container {
